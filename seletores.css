@@ -1,18 +1,27 @@
 body {
-    background-color: #f4f4f4;
+    background-color:#EBF4F6;
     font-family: Arial, sans-serif;
 }
 
-.topo-principal {
-    background-color: #333;
-    color: #f4f4f4;
+#topo-principal {
+    background-color: #09637E;
+    color: #EBF4F6;
     padding: 20px;
+    border-radius: 10px;
+}
+nav ul li a{
+    color: #EBF4F6;
 }
 
 .card {
-    background-color: white;
-    border-radius: 10 px;
-    width: 200 px;
+    background-color: #7AB2B2;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 5px 10px 10px rgba(0, 0, 5, 0.4);
+    border: 2px solid #09637E;
 }
 .card.destaque {
     border: 3 px solid gold;
@@ -21,19 +30,20 @@ body {
 
 p span {
     font-weight: bold;
-    color: blue;
+    color: #09637E;
 }
 
-h1, h2 {
+h2 {
     color: #2c3e50;
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #09637E;
     cursor: pointer;
 }
 
 nav ul li:nth-child(2) {
     text-transform: uppercase;
 }
+
 
