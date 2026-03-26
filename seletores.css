@@ -1,49 +1,64 @@
 body {
-    background-color:#EBF4F6;
-    font-family: Arial, sans-serif;
+    background-color: #EBF4F6; /* Coloca um azul claro de fundo */
+    font-family: Arial, sans-serif; /* Muda as fontes para Arial, sans-serif */
 }
 
+/* ALTERAÇÕES: cores do texto e fundo do cabeçalho, texto branco para melhor legibilidade*/
 #topo-principal {
-    background-color: #09637E;
-    color: #EBF4F6;
-    padding: 20px;
-    border-radius: 10px;
-}
-nav ul li a{
-    color: #EBF4F6;
+    background-color: #09637E; /* Muda o fundo do cabeçalho para azul marinho */
+    color: #EBF4F6;            /* Texto claro para contraste com o fundo escuro */
+    padding: 20px;             /* Espaçamento interno */
+    border-radius: 10px;       /* Cantos arredondados */
 }
 
+/* Links do Menu */
+/* ALTERAÇÕES: cor dos links */
+nav ul li a {
+    color: #EBF4F6; /* Garante que os links fiquem claros no fundo escuro */
+}
+
+/* ALTERAÇÕES: sombra e cores de cada card */
 .card {
-    background-color: #7AB2B2;
-    border-radius: 10px;
-    width: 200px;
-    padding: 15px;
-    margin: 10px;
-    display: inline-block;
-    box-shadow: 5px 10px 10px rgba(0, 0, 5, 0.4);
-    border: 2px solid #09637E;
+    background-color: #7AB2B2;    /* deixa a cor do fundo como um verde azulado */
+    border-radius: 10px;          /* Mantém o padrão de cantos arredondados */
+    width: 200px;                 /* Largura fixa para manter o alinhamento */
+    padding: 15px;                /* Espaçamento interno */
+    margin: 10px;                 /* Espaçamento entre os cards */
+    display: inline-block;        /* Permite que os cards fiquem lado a lado */
+    border: 2px solid #09637E;    /* Borda sólida com a cor principal */
+    
+    /* Efeito de Sombra em cada card */
+    box-shadow: 5px 10px 10px rgba(0, 0, 5, 0.4); 
 }
+
 .card.destaque {
-    border: 3 px solid gold;
-    transform: scale(1.05);
+    border: 3px solid gold;    /* Borda dourada de 3px */
+    transform: scale(1.05);    /* Efeito de zoom */
 }
 
+/* Estilização de Texto e Títulos */
 p span {
-    font-weight: bold;
-    color: #09637E;
+    font-weight: bold; /* Ênfase em negrito */
+    color: #09637E;    /* Cor principal para realçar palavras-chave */
 }
 
+/* ALTERAÇÕES: Alterado para apenas o h2 para não prejudicar a visibilidade do titulo no cabeçalho, que é um h1 com 
+fundo escuro */
 h2 {
-    color: #2c3e50;
+    color: #2c3e50; /* Azul acinzentado para subtítulos */
 }
 
+/* Interatividade 
+   Feedback visual para ações do usuário.
+*/
+
+/* ALTERAÇÕES: Cor do botão ao passar o mouse */
 button:hover {
-    background-color: #09637E;
-    cursor: pointer;
+    background-color: #09637E; /* Muda a cor do botão ao passar o mouse */
+    cursor: pointer;           /* Altera o ícone do mouse para sinal de clique */
 }
 
+/* Estilização de Lista Específica */
 nav ul li:nth-child(2) {
-    text-transform: uppercase;
+    text-transform: uppercase; /* Transforma o 2º item do menu em maiúsculo */
 }
-
-
